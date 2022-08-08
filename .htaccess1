@@ -1,0 +1,10 @@
+
+RewriteEngine on
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
+RewriteCond %{HTTP_HOST} ^avfutbol\.cl$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.avfutbol\.cl$
+RewriteRule ^home$ "https\:\/\/www\.avfutbol\.cl\/" [R=301,L]
+
