@@ -1,3 +1,4 @@
 .vscode/*
 /.vscode/*
 .well-known
+.DS_Store
